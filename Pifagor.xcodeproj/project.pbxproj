@@ -18,6 +18,8 @@
 		B6DE6AC417D916F0000DCF0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE6AC317D916F0000DCF0D /* Default-568h@2x.png */; };
 		B6DE6AC717D916F0000DCF0D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DE6AC517D916F0000DCF0D /* MainStoryboard.storyboard */; };
 		B6DE6ACA17D916F0000DCF0D /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DE6AC917D916F0000DCF0D /* SKViewController.m */; };
+		B6DE6AD217D91745000DCF0D /* SKCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DE6AD117D91745000DCF0D /* SKCanvas.m */; };
+		B6DE6AD517D91836000DCF0D /* SKTreeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DE6AD417D91836000DCF0D /* SKTreeItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		B6DE6AC617D916F0000DCF0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B6DE6AC817D916F0000DCF0D /* SKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKViewController.h; sourceTree = "<group>"; };
 		B6DE6AC917D916F0000DCF0D /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+		B6DE6AD017D91745000DCF0D /* SKCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKCanvas.h; path = ../SKCanvas.h; sourceTree = "<group>"; };
+		B6DE6AD117D91745000DCF0D /* SKCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKCanvas.m; path = ../SKCanvas.m; sourceTree = "<group>"; };
+		B6DE6AD317D91836000DCF0D /* SKTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTreeItem.h; sourceTree = "<group>"; };
+		B6DE6AD417D91836000DCF0D /* SKTreeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTreeItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 		B6DE6AB317D916EF000DCF0D /* Pifagor */ = {
 			isa = PBXGroup;
 			children = (
+				B6DE6AD017D91745000DCF0D /* SKCanvas.h */,
+				B6DE6AD117D91745000DCF0D /* SKCanvas.m */,
+				B6DE6AD317D91836000DCF0D /* SKTreeItem.h */,
+				B6DE6AD417D91836000DCF0D /* SKTreeItem.m */,
 				B6DE6ABC17D916F0000DCF0D /* SKAppDelegate.h */,
 				B6DE6ABD17D916F0000DCF0D /* SKAppDelegate.m */,
 				B6DE6AC517D916F0000DCF0D /* MainStoryboard.storyboard */,
@@ -177,6 +187,8 @@
 				B6DE6ABA17D916F0000DCF0D /* main.m in Sources */,
 				B6DE6ABE17D916F0000DCF0D /* SKAppDelegate.m in Sources */,
 				B6DE6ACA17D916F0000DCF0D /* SKViewController.m in Sources */,
+				B6DE6AD217D91745000DCF0D /* SKCanvas.m in Sources */,
+				B6DE6AD517D91836000DCF0D /* SKTreeItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
