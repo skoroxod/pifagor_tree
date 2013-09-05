@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6DE6AAE17D916EF000DCF0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DE6AAD17D916EF000DCF0D /* UIKit.framework */; };
+		B6DE6AB017D916EF000DCF0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DE6AAF17D916EF000DCF0D /* Foundation.framework */; };
+		B6DE6AB217D916EF000DCF0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DE6AB117D916EF000DCF0D /* CoreGraphics.framework */; };
+		B6DE6AB817D916F0000DCF0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6DE6AB617D916F0000DCF0D /* InfoPlist.strings */; };
+		B6DE6ABA17D916F0000DCF0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DE6AB917D916F0000DCF0D /* main.m */; };
+		B6DE6ABE17D916F0000DCF0D /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DE6ABD17D916F0000DCF0D /* SKAppDelegate.m */; };
+		B6DE6AC017D916F0000DCF0D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE6ABF17D916F0000DCF0D /* Default.png */; };
+		B6DE6AC217D916F0000DCF0D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE6AC117D916F0000DCF0D /* Default@2x.png */; };
+		B6DE6AC417D916F0000DCF0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE6AC317D916F0000DCF0D /* Default-568h@2x.png */; };
+		B6DE6AC717D916F0000DCF0D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DE6AC517D916F0000DCF0D /* MainStoryboard.storyboard */; };
+		B6DE6ACA17D916F0000DCF0D /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DE6AC917D916F0000DCF0D /* SKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6DE6AAA17D916EF000DCF0D /* Pifagor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pifagor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DE6AAD17D916EF000DCF0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6DE6AAF17D916EF000DCF0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6DE6AB117D916EF000DCF0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6DE6AB517D916F0000DCF0D /* Pifagor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pifagor-Info.plist"; sourceTree = "<group>"; };
+		B6DE6AB717D916F0000DCF0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6DE6AB917D916F0000DCF0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6DE6ABB17D916F0000DCF0D /* Pifagor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pifagor-Prefix.pch"; sourceTree = "<group>"; };
+		B6DE6ABC17D916F0000DCF0D /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		B6DE6ABD17D916F0000DCF0D /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		B6DE6ABF17D916F0000DCF0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B6DE6AC117D916F0000DCF0D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B6DE6AC317D916F0000DCF0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6DE6AC617D916F0000DCF0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B6DE6AC817D916F0000DCF0D /* SKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKViewController.h; sourceTree = "<group>"; };
+		B6DE6AC917D916F0000DCF0D /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6DE6AA717D916EF000DCF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DE6AAE17D916EF000DCF0D /* UIKit.framework in Frameworks */,
+				B6DE6AB017D916EF000DCF0D /* Foundation.framework in Frameworks */,
+				B6DE6AB217D916EF000DCF0D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6DE6AA117D916EF000DCF0D = {
+			isa = PBXGroup;
+			children = (
+				B6DE6AB317D916EF000DCF0D /* Pifagor */,
+				B6DE6AAC17D916EF000DCF0D /* Frameworks */,
+				B6DE6AAB17D916EF000DCF0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6DE6AAB17D916EF000DCF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE6AAA17D916EF000DCF0D /* Pifagor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6DE6AAC17D916EF000DCF0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE6AAD17D916EF000DCF0D /* UIKit.framework */,
+				B6DE6AAF17D916EF000DCF0D /* Foundation.framework */,
+				B6DE6AB117D916EF000DCF0D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6DE6AB317D916EF000DCF0D /* Pifagor */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE6ABC17D916F0000DCF0D /* SKAppDelegate.h */,
+				B6DE6ABD17D916F0000DCF0D /* SKAppDelegate.m */,
+				B6DE6AC517D916F0000DCF0D /* MainStoryboard.storyboard */,
+				B6DE6AC817D916F0000DCF0D /* SKViewController.h */,
+				B6DE6AC917D916F0000DCF0D /* SKViewController.m */,
+				B6DE6AB417D916F0000DCF0D /* Supporting Files */,
+			);
+			path = Pifagor;
+			sourceTree = "<group>";
+		};
+		B6DE6AB417D916F0000DCF0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE6AB517D916F0000DCF0D /* Pifagor-Info.plist */,
+				B6DE6AB617D916F0000DCF0D /* InfoPlist.strings */,
+				B6DE6AB917D916F0000DCF0D /* main.m */,
+				B6DE6ABB17D916F0000DCF0D /* Pifagor-Prefix.pch */,
+				B6DE6ABF17D916F0000DCF0D /* Default.png */,
+				B6DE6AC117D916F0000DCF0D /* Default@2x.png */,
+				B6DE6AC317D916F0000DCF0D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6DE6AA917D916EF000DCF0D /* Pifagor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DE6ACD17D916F0000DCF0D /* Build configuration list for PBXNativeTarget "Pifagor" */;
+			buildPhases = (
+				B6DE6AA617D916EF000DCF0D /* Sources */,
+				B6DE6AA717D916EF000DCF0D /* Frameworks */,
+				B6DE6AA817D916EF000DCF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pifagor;
+			productName = Pifagor;
+			productReference = B6DE6AAA17D916EF000DCF0D /* Pifagor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6DE6AA217D916EF000DCF0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aleksandr Skorokhodov";
+			};
+			buildConfigurationList = B6DE6AA517D916EF000DCF0D /* Build configuration list for PBXProject "Pifagor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6DE6AA117D916EF000DCF0D;
+			productRefGroup = B6DE6AAB17D916EF000DCF0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DE6AA917D916EF000DCF0D /* Pifagor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6DE6AA817D916EF000DCF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DE6AB817D916F0000DCF0D /* InfoPlist.strings in Resources */,
+				B6DE6AC017D916F0000DCF0D /* Default.png in Resources */,
+				B6DE6AC217D916F0000DCF0D /* Default@2x.png in Resources */,
+				B6DE6AC417D916F0000DCF0D /* Default-568h@2x.png in Resources */,
+				B6DE6AC717D916F0000DCF0D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6DE6AA617D916EF000DCF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DE6ABA17D916F0000DCF0D /* main.m in Sources */,
+				B6DE6ABE17D916F0000DCF0D /* SKAppDelegate.m in Sources */,
+				B6DE6ACA17D916F0000DCF0D /* SKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6DE6AB617D916F0000DCF0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DE6AB717D916F0000DCF0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6DE6AC517D916F0000DCF0D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DE6AC617D916F0000DCF0D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6DE6ACB17D916F0000DCF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6DE6ACC17D916F0000DCF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6DE6ACE17D916F0000DCF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pifagor/Pifagor-Prefix.pch";
+				INFOPLIST_FILE = "Pifagor/Pifagor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6DE6ACF17D916F0000DCF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pifagor/Pifagor-Prefix.pch";
+				INFOPLIST_FILE = "Pifagor/Pifagor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6DE6AA517D916EF000DCF0D /* Build configuration list for PBXProject "Pifagor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DE6ACB17D916F0000DCF0D /* Debug */,
+				B6DE6ACC17D916F0000DCF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DE6ACD17D916F0000DCF0D /* Build configuration list for PBXNativeTarget "Pifagor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DE6ACE17D916F0000DCF0D /* Debug */,
+				B6DE6ACF17D916F0000DCF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6DE6AA217D916EF000DCF0D /* Project object */;
+}
