@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface SKTreeItem : NSObject
 
@@ -32,5 +33,9 @@
 
 - (id)initWithPointA:(CGPoint) _pointA PointB:(CGPoint) _pointB;
 - (id)init;
+- (void) drawItemWithCtx:(CGContextRef) ctx;
+
+- (void) drawTreeWithCtx:(CGContextRef) ctx withMinBaseLength:(float) _length;
+
 
 @end
